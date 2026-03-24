@@ -2,16 +2,16 @@ import Header from '@/components/header/Header';
 import { History } from '@/components/history/History';
 import { Publications } from '@/components/publications/Publications';
 import React from 'react';
-import { View } from 'react-native';
+import { ScrollView } from 'react-native';
 
 const Home = () => {
   return (
-    <View>
+    <ScrollView>
       <Header/>
       <History/>
 
       <Publications/>
-    </View>
+    </ScrollView>
   )
 }
 
